@@ -128,3 +128,11 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.89) 0%, rgba(0, 0, 0, 0.89) 5
 {
     background-image: url("photos/One_Piece\,_Volume_61_Cover_\(Japanese\).jpg");
 }
+.navbar-toggler-icon
+{
+    background-color: aliceblue !important;
+}
+.navbar-toggler
+{
+    background-color: aliceblue !important;
+}
