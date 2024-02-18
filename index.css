@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(0, 0, 0, 0.92) !important ;
+}
+.navbar-brand
+{
+    
+    color: white !important;
+    font-size: 23px !important;
+    /* border: solid white 1px; */
+
+}
+.nav-link
+{
+    color: white !important;
+    font-size: 20px !important;
+    
+}
+.navbar
+{
+background: rgb(0, 0, 0);
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.89) 0%, rgba(0, 0, 0, 0.89) 59%, rgba(0, 0, 0, 0.884) 92%, rgb(0, 0, 0, 0.89) 100%);
+}
+
+.nav-hov:hover{
+    color: rgb(27, 156, 165) !important;
+}
+.btn
+{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.btn:hover
+{
+    border: 1px solid rgb(27, 156, 165) !important;
+    color: rgb(27, 156, 165) !important;
+
+}
+.mark
+{
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgb(27, 156, 165) !important;
+    font-size: larger;
+    animation: blinker 2s linear infinite;
+}
+.m-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.mylogo
+{
+    width:65px;
+    height: 60;
+    margin-right:20px;
+    background-color: beige;
+    border-radius: 100%;
+}
+.mylogo:hover{
+    background-color: rgb(27, 156, 165);
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col-2
+{
+    height:329;
+}
+.b-image
+{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+}
+.first
+{
+    background-image: url("photos/redo.jpg");
+
+    }
+.b-image:hover
+{
+    /* background-color: red; */
+    opacity: 40%;
+}
+.anchor
+{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+
+}
+.b-image-inside
+{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.b-image-inside:hover
+{
+    background-color: rgba(0, 0, 0, 0.678);
+
+}
+.second
+{
+    background-image: url("photos/dragon.jpe");
+}
+.third
+{
+    background-image: url("photos/overflow.jpg");
+}
+.fourth
+{
+    background-image: url("photos/One_Piece\,_Volume_61_Cover_\(Japanese\).jpg");
+}
